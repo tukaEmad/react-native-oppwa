@@ -4,7 +4,7 @@
 
 #import <React/RCTBridgeModule.h>
 
-@interface RNOppwa : NSObject <RCTBridgeModule>
+@interface RNOppwa : NSObject <PKPaymentAuthorizationViewControllerDelegate,RCTBridgeModule>
 @end
 
 #endif
